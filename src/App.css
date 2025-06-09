@@ -448,13 +448,47 @@ a:hover, a:active { text-decoration: none; color:black }
 
 @media (max-width: 650px) {
   .header-href {
-    font-weight: 600;
-  font-size: 20px; 
+    font-weight: 800;
+  font-size: 40px; 
   }
  
 
 .bassel-pic{
-  height: 12rem;
-  width: 12rem;
+  margin-top: 0;
+  height: 13rem;
+  width: 13rem;
 }
+
+.contactMe-Container{
+  position: fixed;
+  left: 10%;
+  top: 25% ;
+  overflow-y: auto;
+  background-color: #111827;
+  width: 80%; 
+  max-height: 83%;
+  z-index: 1000;
+  border-color: #219ebc;
+  border-width: 4px;
+  border-style: solid;
+  border-top-left-radius: .75rem;
+  border-top-right-radius: .75rem;
+}
+}
+
+.w-100{
+  width: 100% !important;
+}
+
+.right-4{
+  right:1rem;
+}
+
+.bg-gray-200{
+  background-color: rgba(243,244,246);
+  border-radius:999px;
+}
+
+.zindex-max{
+  z-index: 999999 !important;
 }
