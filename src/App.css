@@ -409,13 +409,7 @@ a:hover, a:active { text-decoration: none; color:black }
     display: none;
    }
 
-.burger{
-  display: inline;
-}
 
-.MainNavBar{
-  display: none !important;
-}
 
 .font-extr-extraabold{
     font-weight: 800;
@@ -434,6 +428,14 @@ a:hover, a:active { text-decoration: none; color:black }
 }
 
 @media (max-width: 1020px) {
+
+  .burger{
+  display: inline;
+}
+
+.MainNavBar{
+  display: none !important;
+}
 .project{
   width: 100%;
 }
