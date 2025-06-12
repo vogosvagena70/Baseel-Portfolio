@@ -382,7 +382,7 @@ a:hover, a:active { text-decoration: none; color:black }
 
 .burger{
   display: none;
-}
+} 
 
 @media (max-width: 1410px) {
 .project{
@@ -411,6 +411,10 @@ a:hover, a:active { text-decoration: none; color:black }
 
 .burger{
   display: inline;
+}
+
+.MainNavBar{
+  display: none !important;
 }
 
 .font-extr-extraabold{
