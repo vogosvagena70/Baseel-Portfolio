@@ -9,9 +9,9 @@ export default function EnterAnimation() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.1, duration: 1 }}
       >
-        <HeaderHref text="Projects"></HeaderHref>
-        <HeaderHref text="Projects"></HeaderHref>
-        <HeaderHref text="Projects"></HeaderHref>
+        <HeaderHref text="Projects" InNavBar={false}></HeaderHref>
+        <HeaderHref text="Projects" InNavBar={false}></HeaderHref>
+        <HeaderHref text="Projects" InNavBar={false}></HeaderHref>
       </motion.div>
     </>
   );
