@@ -3,9 +3,10 @@ import Button from "./Button";
 
 type ContactMeProps = {
   ContactMeHandler: () => void;
+  InNavBar: boolean;
 };
 
-const ContactMe = ({ ContactMeHandler }: ContactMeProps) => {
+const ContactMe = ({ ContactMeHandler, InNavBar = false }: ContactMeProps) => {
   return (
     <>
       <motion.div
@@ -16,7 +17,11 @@ const ContactMe = ({ ContactMeHandler }: ContactMeProps) => {
       >
         <Button
           text="Contact Me"
-          className="float-right bg-w-to-b color-b-to-w pl-1 pr-1 border-black-900"
+          className={
+            InNavBar == false
+              ? "float-right bg-w-to-b color-b-to-w pl-1 pr-1 border-black-900"
+              : "bg-system float-right bg-w-to-b color-b-to-w pl-1 pr-1 border-black-900"
+          }
           handleClick={ContactMeHandler}
         ></Button>
       </motion.div>

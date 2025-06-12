@@ -44,7 +44,24 @@ html{
   transition: background-size 0.5s ease;
 }
 
+.header-href-in-nav-bar{
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-left: 24px;
+  margin-right: 12px;
+
+  background: linear-gradient(to top, #ffd166 100%, transparent 20%);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100% 20%;
+  transition: background-size 0.5s ease;
+}
+
 .header-href:hover {
+  background-size: 100% 100%;
+}
+
+.header-href-in-nav-bar:hover {
   background-size: 100% 100%;
 }
 
@@ -491,4 +508,13 @@ a:hover, a:active { text-decoration: none; color:black }
 
 .zindex-max{
   z-index: 999999 !important;
+}
+
+.MainNavBar{
+  background-color: #8ecae6;
+  height: 50px;
+}
+
+.bg-system{
+  background-color: #8ecae6;
 }

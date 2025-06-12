@@ -65,7 +65,7 @@ const NavDrawer = ({
             transition={{ duration: 1, delay: 0.6 }}
             onClick={toggleDrawer}
           >
-            <HeaderHref text="Work" />
+            <HeaderHref text="Work" InNavBar={false} />
           </motion.div>
 
           <motion.div
@@ -74,7 +74,7 @@ const NavDrawer = ({
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 1, delay: 0.6 }}
           >
-            <HeaderHref text="Projects" />
+            <HeaderHref text="Projects" InNavBar={false} />
           </motion.div>
 
           <motion.div
