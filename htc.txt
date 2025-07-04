@@ -6,4 +6,4 @@ In you local repository run this command: npm run build (1:56)
 
 5. git subtree push --prefix dist origin gh-pages (2:20)
 
-6. Redeploy
+6. Redeployy
