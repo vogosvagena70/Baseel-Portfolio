@@ -524,3 +524,21 @@ a:hover, a:active { text-decoration: none; color:black }
 .bg-system{
   background-color: #8ecae6;
 }
+
+.MyProjectsContainer{
+  margin-top: 50px;
+  display: flex;
+
+}
+
+.MyProject{
+  padding: 40px;
+  border: 3px solid black;
+  border-radius: 0.5rem;
+
+}
+
+.MyProject > img{
+  width: 250px;
+  height: fit-content;
+}

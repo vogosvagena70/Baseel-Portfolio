@@ -11,6 +11,7 @@ import BasselDescription from "./components/BasselDescription";
 import Projects from "./components/Projects";
 import NavDrawer from "./components/NavDrawer";
 import NavBurger from "./components/NavBurger";
+import MyProjects from "./components/MyProjects";
 
 function App() {
   const [toggleModal, setToggleModal] = useState(false);
@@ -97,6 +98,7 @@ function App() {
       </div>
 
       <Projects />
+      <MyProjects />
     </>
   );
 }
