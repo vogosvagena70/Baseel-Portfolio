@@ -1,0 +1,16 @@
+
+
+.Footer{
+    height: 4rem;
+    background-color: rgba(229, 231, 235);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.Footer > * {
+    font-weight: 800;
+}

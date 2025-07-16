@@ -39,6 +39,15 @@ const MainHeader = ({
             <HeaderHref text="Work" InNavBar={!SkipAnimation} />
           </motion.div>
 
+          <motion.div
+            style={{ display: "inline-block" }}
+            initial={{ y: -20, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            transition={{ duration: 1, delay: 0.6 }}
+          >
+            <HeaderHref text="Projects" InNavBar={!SkipAnimation} />
+          </motion.div>
+
           <ContactMe
             ContactMeHandler={ContactMeHandler}
             InNavBar={!SkipAnimation}

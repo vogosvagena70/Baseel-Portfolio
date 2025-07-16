@@ -84,6 +84,10 @@ html{
 
 .wrapper{
   padding: 80px 80px;
+
+  @media (max-width: 400px) {
+    padding: 20px 20px;
+}
 }
 
 .bassel-wrapper{
@@ -539,6 +543,6 @@ a:hover, a:active { text-decoration: none; color:black }
 }
 
 .MyProject > img{
-  width: 250px;
+  width: min(50vw,250px);
   height: fit-content;
 }

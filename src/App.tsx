@@ -12,6 +12,7 @@ import Projects from "./components/Projects";
 import NavDrawer from "./components/NavDrawer";
 import NavBurger from "./components/NavBurger";
 import MyProjects from "./components/MyProjects";
+import Footer from "./components/Footer";
 
 function App() {
   const [toggleModal, setToggleModal] = useState(false);
@@ -99,6 +100,7 @@ function App() {
 
       <Projects />
       <MyProjects />
+      <Footer />
     </>
   );
 }

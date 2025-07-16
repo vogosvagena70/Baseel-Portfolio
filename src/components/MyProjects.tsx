@@ -2,7 +2,7 @@ import CedarBlack from "../assets/NewCedarBlackPNG.png";
 const MyProjects = () => {
   return (
     <>
-      <div className="wrapper">
+      <div className="wrapper" id="Projects">
         <h1>My Projects</h1>
         <h2>My personal project that I launched, and still working on.</h2>
         <div className="MyProjectsContainer">
