@@ -85,6 +85,10 @@ html{
 .wrapper{
   padding: 80px 80px;
 
+  @media (max-width: 800px) {
+    padding: 40px 40px;
+  }
+
   @media (max-width: 400px) {
     padding: 20px 20px;
 }
@@ -532,14 +536,21 @@ a:hover, a:active { text-decoration: none; color:black }
 .MyProjectsContainer{
   margin-top: 50px;
   display: flex;
+  gap:2rem;
 
+  @media (max-width: 810px) {
+    flex-direction: column;
+  }
 }
 
 .MyProject{
-  padding: 40px;
+  padding: 10px;
   border: 3px solid black;
   border-radius: 0.5rem;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
 }
 
 .MyProject > img{
